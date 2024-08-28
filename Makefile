@@ -1,6 +1,3 @@
-build-image:
-	docker build -t mv-local-spark-image:$(label) .
-
 build:
 	docker-compose build
 
