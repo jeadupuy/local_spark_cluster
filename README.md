@@ -17,7 +17,7 @@ This command will build the Docker images and start the containers. The master n
 To deploy the cluster with a specific number of worker nodes, you can run the following command:
 
 ```bash
-make run workers=3
+make run-scale workers=3
 ```
 
 To stop the cluster, you can run the following command:
