@@ -17,7 +17,7 @@ run-d:
 	make down && docker-compose up -d
 
 run-scale:
-	make down && docker-compose up --scale spark-worker=$(scale)
+	make down && docker-compose up --scale spark-worker=$(workers)
 
 stop:
 	docker-compose stop
